@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.camperasHombre ul li a img{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 10%;
+    display: table-cell;
+    
+}
+
+/*Redes*/
+
+.social {
+    z-index: 2000;
+    position: fixed;
+    top: 30%;
+    left: 0;
+
+}
+
+.social ul li a {
+    display: inline-block;
+    color: white;
+    padding: 10px 15px;
+    background: black;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.social ul li a:hover {
+    padding: 10px 30px;
+
+}

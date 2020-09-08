@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    width: 100%;
+}
+
+nav{
+    margin: 20px auto;
+}
+
+nav > ul {
+    position: absolute;
+    margin: 0 32% auto;
+}
+
+nav > ul li {
+    display: table-cell;
+    padding: 10px;
+
+}
+
+nav > ul li a {
+    color: black;
+    font-family:Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    
+    
+}
+nav > ul li .Black {
+    font-weight: 900;
+    
+}
+
+.decore {
+    width: 28.3%;
+    height: 0.1%;
+    background: black;
+    position: absolute;
+    margin: 2.6% 32.8% auto;   
+}
+
+/* Redes*/
+
+.social {
+    z-index: 2000;
+    position: fixed;
+    top: 30%;
+    left: 0;
+    
+}
+
+.social ul li a{
+    display: inline-block;
+    color: white;
+    padding: 10px 15px;
+    background: black;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.social ul li a:hover{
+    padding: 10px 30px;
+    
+}
+
