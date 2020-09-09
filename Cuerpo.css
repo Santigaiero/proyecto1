@@ -6,21 +6,17 @@
 }
 /*Camperas*/
 
-.campera1 a img{
+.containerCamperas a img{
     width: 212px;
     height: 250px;
-    position: absolute;
+    position: relative;
     left: 10%;
     top: 100px;
-   
-}
+    float: left;
+    margin: 3px;
 
-.campera2 a img{
-    width: 220px;
-    height: 250px;
-    position: absolute;
-    top: 100px;
-    left: 26%;
+   
+
 }
 
 .campera1 a img:hover{
