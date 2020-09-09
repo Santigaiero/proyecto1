@@ -28,6 +28,13 @@
     
 }
 
+.precio1 {
+    color: black;
+    left: 10%;
+    top: 55%;
+    position: absolute;
+}
+
 .campera2 a img:hover{
     border: 1px solid black;
 }
