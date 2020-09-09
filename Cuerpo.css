@@ -4,14 +4,32 @@
     text-decoration: none;
     list-style: none;
 }
+/*Camperas*/
 
-.camperasHombre ul li a img{
-    width: 100px;
-    height: 100px;
-    position: relative;
+.campera1 a img{
+    width: 212px;
+    height: 250px;
+    position: absolute;
     left: 10%;
-    display: table-cell;
+    top: 100px;
+   
+}
+
+.campera2 a img{
+    width: 220px;
+    height: 250px;
+    position: absolute;
+    top: 100px;
+    left: 26%;
+}
+
+.campera1 a img:hover{
+    border: 1px solid black;
     
+}
+
+.campera2 a img:hover{
+    border: 1px solid black;
 }
 
 /*Redes*/
