@@ -7,31 +7,64 @@
 }
 /*Camperas*/
 
-
-
-
-
-.containerCamperas a img{
-    width: 212px;
-    height: 250px;
-    position: relative;
-    left: 10%;
-    top: 100px;
-    float: left;
-    margin: 3px;
+.camperasContainer{
+    width: 230px;
+    height: 270px;
+    position: absolute;
+    margin: auto 10%;
+    top: 15%;
 
 }
-.containerCamperas h2 {
-    color:black;
-    position: relative;
-    top: 20%;
+
+
+
+.camperasContainer a img{
+    width: 300px;
+    height: 400px;
+   
+    
+    
+
+}
+
+.camperasContainer h2{
+    color:white;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    font: 23px montserrat, sans-serif;
+}
+
+/*Pantalones*/
+
+.pantalonesContainer{
+    width: 230px;
+    height: 270px;
+    margin: auto 33%;
+    position:absolute;
+    top: 15%;
+
+    
+
+}
+
+.pantalonesContainer img{
+    width: 300px;
+    height: 400px;
     
 }
 
-.product-list-info-title{
-    margin: auto auto 20px auto;
-    
+.pantalonesContainer h2 {
+    color:white;
+    position: absolute;
+    top: 70%;
+    left: 36%;
+    font: 23px montserrat,
+    sans-serif;
 }
+
+
+
 
 /*Redes*/
 
@@ -63,58 +96,5 @@
 
 
 
-@media screen and (min-width: 360px) and (max-width: 640px) {
-    .containerCamperas a img {
-        height: 100px;
-        width: 100px;
-    }
 
-    .social li {
-        color: white;
-        padding: 10px 25px;
-        background: black;
-        float: left;
-        width: 120px;
-        position: relative;
-        top: 330px;
-        
-    }
-    
-}
-
-@media screen and (min-width: 375px)  {
-        .social ul li {
-            color: white;
-            padding: 10px 37px;
-            background: black;
-            float: left;
-            width: 150px;
-            position: relative;
-            top: 343px;
-        }
-}
-
-@media screen and (min-width: 360px){
-    .social ul li {
-        color: white;
-        padding: 10px 40px;
-        background: black;
-        float: left;
-        width: 120px;
-        position: relative;
-        top: 393px;
-    }
-
-}
-
-@media screen and (min-width: 414px){
-    .social ul li {
-        color: white;
-        padding: 10px 45px;
-        background: black;
-        float: left;
-        width: 138px;
-        position: relative;
-        top: 410px;
-    }
-}
+/*Media query*/
