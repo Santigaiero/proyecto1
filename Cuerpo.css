@@ -3,8 +3,13 @@
     padding: 0;
     text-decoration: none;
     list-style: none;
+    box-sizing: border-box  ;
 }
 /*Camperas*/
+
+
+
+
 
 .containerCamperas a img{
     width: 212px;
@@ -15,6 +20,17 @@
     float: left;
     margin: 3px;
 
+}
+.containerCamperas h2 {
+    color:black;
+    position: relative;
+    top: 20%;
+    
+}
+
+.product-list-info-title{
+    margin: auto auto 20px auto;
+    
 }
 
 /*Redes*/
@@ -41,5 +57,31 @@
 
 .social ul li a:hover {
     padding: 10px 30px;
+
+}
+
+
+
+
+@media screen and (min-width: 360px) and (max-width: 640px) {
+    .containerCamperas a img {
+        height: 100px;
+        width: 100px;
+    }
+
+    .social li {
+        color: white;
+        padding: 10px 25px;
+        background: black;
+        float: left;
+        width: 120px;
+        position: relative;
+        top: 360px;
+        
+    }
+    
+}
+
+@media screen and (min-width: 1366px) and (max-width: 768px) {
 
 }
