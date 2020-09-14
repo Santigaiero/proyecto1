@@ -82,14 +82,39 @@
     
 }
 
-@media screen and (min-width: 375px) and (max-width: 667px) {
-        .social li {
+@media screen and (min-width: 375px)  {
+        .social ul li {
             color: white;
-            padding: 10px 40px;
+            padding: 10px 37px;
             background: black;
             float: left;
-            width: 125px;
+            width: 150px;
             position: relative;
-            top: 410px;
+            top: 343px;
         }
+}
+
+@media screen and (min-width: 360px){
+    .social ul li {
+        color: white;
+        padding: 10px 40px;
+        background: black;
+        float: left;
+        width: 120px;
+        position: relative;
+        top: 393px;
+    }
+
+}
+
+@media screen and (min-width: 414px){
+    .social ul li {
+        color: white;
+        padding: 10px 45px;
+        background: black;
+        float: left;
+        width: 138px;
+        position: relative;
+        top: 410px;
+    }
 }
