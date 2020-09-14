@@ -76,12 +76,20 @@
         float: left;
         width: 120px;
         position: relative;
-        top: 360px;
+        top: 330px;
         
     }
     
 }
 
-@media screen and (min-width: 1366px) and (max-width: 768px) {
-
+@media screen and (min-width: 375px) and (max-width: 667px) {
+        .social li {
+            color: white;
+            padding: 10px 40px;
+            background: black;
+            float: left;
+            width: 125px;
+            position: relative;
+            top: 410px;
+        }
 }
